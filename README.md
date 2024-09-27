@@ -1,7 +1,5 @@
 # SwiftUI Component Gallery
 
-![SwiftUI Component Gallery Banner](path/to/banner-image.png)
-
 SwiftUI Component Gallery is an open-source project showcasing a collection of customizable SwiftUI components. This gallery serves as both a reference and a learning resource for developers working with SwiftUI.
 
 ## Features
@@ -66,6 +64,32 @@ To use a component in your own project:
 2. Copy the component's code.
 3. Paste the code into your SwiftUI project.
 4. Customize the component as needed.
+
+### Using Swift Package Manager
+
+You can install SwiftUIComponentGallery using the [Swift Package Manager](https://swift.org/package-manager/).
+
+1. In Xcode, open your project and navigate to File → Swift Packages → Add Package Dependency...
+2. Paste the repository URL: https://github.com/yourusername/SwiftUIComponentGallery.git
+3. Click on Next and select the branch or version you want to add.
+4. Click on Finish and your project will fetch the package.
+
+## Usage
+
+After installing the package, you can import and use the components in your SwiftUI views:
+
+```swift
+import SwiftUIComponentGallery
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            GradientButton()
+            PulseIndicator()
+        }
+    }
+}
+```
 
 ## Contributing
 
