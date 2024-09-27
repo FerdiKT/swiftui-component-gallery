@@ -65,31 +65,6 @@ To use a component in your own project:
 3. Paste the code into your SwiftUI project.
 4. Customize the component as needed.
 
-### Using Swift Package Manager
-
-You can install SwiftUIComponentGallery using the [Swift Package Manager](https://swift.org/package-manager/).
-
-1. In Xcode, open your project and navigate to File → Swift Packages → Add Package Dependency...
-2. Paste the repository URL: https://github.com/yourusername/SwiftUIComponentGallery.git
-3. Click on Next and select the branch or version you want to add.
-4. Click on Finish and your project will fetch the package.
-
-## Usage
-
-After installing the package, you can import and use the components in your SwiftUI views:
-
-```swift
-import SwiftUIComponentGallery
-
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            GradientButton()
-            PulseIndicator()
-        }
-    }
-}
-```
 
 ## Contributing
 
@@ -104,7 +79,14 @@ Please ensure your code follows the project's coding standards and includes appr
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under a modified MIT License with a No-Resale Clause. See the [LICENSE](LICENSE) file for details. In summary:
+
+- You can use, copy, modify, merge, publish, distribute, and sublicense the code.
+- You can freely use the components in both commercial and non-commercial projects.
+- You must include the copyright notice and permission notice in all copies or substantial portions of the Software.
+- You cannot resell, relicense, or redistribute the components or any derivative works for a fee as standalone software or as part of a larger software package without explicit written permission.
+
+This license allows you to use the components in your projects, including commercial ones, but prohibits the resale or redistribution of the components themselves as a separate product or package.
 
 ## Acknowledgments
 
